@@ -1,0 +1,75 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-image: "C:\Users\tarag\Downloads\download (1).jpg";
+  color: black;
+}
+
+.feedback-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+
+}
+
+.logo {
+  max-width: 100px;
+  margin-bottom: 20px;
+}
+.curved-box {
+  width: 590px; /* Set your desired width */
+  padding: 20px; /* Set padding for the content inside the box */
+  background-color: #f0f0f0; /* Set the background color of the box */
+  border-radius: 20px; /* Set the border radius to create curved corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow for depth */
+}
+
+/* Style the content inside the box */
+.curved-box p {
+  font-size: 20px; /* Set the font size for the text */
+  color: #333; /* Set the text color */
+}
+.form-group {
+  margin-bottom: 15px;
+}
+.form-grou {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.thank-you-message {
+  margin-top: 20px;
+  font-style: italic;
+}
